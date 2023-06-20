@@ -1,0 +1,51 @@
+.listItem:hover {
+    list-style-image: url(/assets/images/x-regular-24.png);
+}
+
+* {
+    -webkit-text-fill-color: white;
+}
+
+body {
+    background-color: black;
+}
+
+li {
+    color: white;
+}
+
+ul {
+    text-align: left;
+}
+
+input {
+    -webkit-text-fill-color: black;
+}
+
+button {
+    -webkit-text-fill-color: black;
+    background-color: white;
+}
+
+#content_container {
+    position: absolute;
+    text-align: center;
+    width: 20vw;
+    height: 40vw;
+    left: 50%;
+    margin-left: -10vw;
+    top: 50%;
+    margin-top: -20vw;
+}
+
+#item_info {
+    text-align: left;
+}
+
+#new_user_submit_container {
+    text-align: left;
+}
+
+input {
+    padding-right: 100%;
+}
